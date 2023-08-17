@@ -117,7 +117,7 @@ nav ul li a {
  text-align: center;
   font-size: 18px;
 }
-.about-title{
+.title{
   color: var(--dark-01, #181818);
 text-align: center;
 font-family: Open Sans;
@@ -137,4 +137,57 @@ padding-bottom: 30px;
 }
 .info-detail{
   font-weight: bold;
+}
+/* service style */
+.services{
+  text-align: center;
+  padding: 0 230px 130px 230px;
+}
+.service-detail{
+margin: 0 345px;
+}
+/* cards style */
+.cards{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+  margin-top: 40px;
+}
+.card{
+  border-radius: 5px;
+  box-shadow: 0 5px 50px 0 gainsboro;
+  background-color: #fff;
+  padding: 30px;
+}
+/* resume section */
+.resume{
+padding: 0 230px 130px 230px;
+}
+.resume__info{
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  margin-top: 100px;
+}
+.resume__content{
+  padding: 0 50px 0 0;
+}
+.resume__textbox{
+  padding: 20px 0;
+  border-bottom: 1px solid #e1dede;
+}
+.resume__textbox p{
+  color: #757575;
+}
+.sub-title{
+  font-size: 30px;
+}
+.content-title{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.content-subtitle{
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #757575;
 }
