@@ -1,5 +1,5 @@
 /* shared styles */
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -46,61 +46,83 @@ nav ul li {
 nav ul li a {
   text-decoration: none;
 }
-.header{
-  background-color:#FFF8F3;
-  background-image: url(./images/developer.png),url(./images/header_bg.png);
+.header {
+  background-color: #fff8f3;
+  background-image: url(./images/developer.png), url(./images/header_bg.png);
   background-repeat: no-repeat, no-repeat;
   background-position: 70px 40px, bottom right;
-  padding-right: 50px ;
+  padding-right: 50px;
 }
-.banner{
-  padding:50px 30px 50px 230px;
+.banner {
+  padding: 50px 30px 50px 230px;
 }
-.btn-secondary{
+.btn-secondary {
   border-radius: 5px;
-border: 1px solid #FD6E0A;
-padding: 18px 35px;
-background-color: var(--white-color, #fff);
-font-family: Open Sans;
-font-size: 20px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
-color: #FD6E0A;
-margin-left: 30px;
+  border: 1px solid #fd6e0a;
+  padding: 18px 35px;
+  background-color: var(--white-color, #fff);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #fd6e0a;
+  margin-left: 30px;
 }
-.banner-greeting{
+.banner-greeting {
   color: var(--dark-02, #474747);
-font-family: Open Sans;
-font-size: 45px;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
+  font-family: Open Sans;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-.banner-title{
+.banner-title {
   color: var(--dark-01, #181818);
-font-family: Open Sans;
-font-size: 85px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+  font-family: Open Sans;
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
-.pg{
+.banner-detail {
   color: var(--dark-03, #757575);
   font-family: Open Sans;
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  margin-bottom: 20px;
 }
-.banner{
-  padding:30px 0 0 200px;
+.banner {
+  padding: 30px 0 0 200px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.profile-pic{
+.profile-pic {
   width: 584px;
   height: 676px;
- 
+}
+/* main sec style */
+.about {
+  margin: 130px 230px;
+  padding: 130px;
+  border-radius: 10px;
+  background: #fff8f3;
+
+}
+.about-description {
+  color: #757575;
+ text-align: center;
+  font-size: 18px;
+}
+.about-title{
+  color: var(--dark-01, #181818);
+text-align: center;
+font-family: Open Sans;
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
 }
