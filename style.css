@@ -125,4 +125,16 @@ font-size: 35px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+padding-bottom: 30px;
+}
+.about-info-containar{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px; ;
+}
+.about-info{
+  text-align: center;
+}
+.info-detail{
+  font-weight: bold;
 }
